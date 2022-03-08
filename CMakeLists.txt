@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 
 
-add_executable(cppLanguageFeatures main.cpp library/Line.h library/Coord.h library/Circle.h library/Rectangle.h variant/SimpleVariant.h variant/PolyVariant.h enum/BuildingEnum.h namespace/SampleNameSpace.h namespace/SampleNamespace.cpp exceptions/Exception.cpp exceptions/Exception.h auto/AutoTest.h construction/BasicObjectConstruction.h templates/SimpleTemplate.h templates/FunctionObject.h templates/LambdaExpression.h)
+add_executable(cppLanguageFeatures main.cpp library/Line.h library/Coord.h library/Circle.h library/Rectangle.h variant/SimpleVariant.h variant/PolyVariant.h enum/BuildingEnum.h namespace/SampleNameSpace.h namespace/SampleNamespace.cpp exceptions/Exception.cpp exceptions/Exception.h auto/AutoTest.h construction/BasicObjectConstruction.h templates/SimpleTemplate.h templates/FunctionObject.h templates/LambdaExpression.h move/NoExceptExample.h move/MoveOnStrings.h move/PerfectForwarding.h move/TemplateConcepts.h move/PerformanceTimings.h move/ReturnValue.h)
 
 

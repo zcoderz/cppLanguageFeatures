@@ -7,8 +7,22 @@
 #include "construction/BasicObjectConstruction.h"
 #include "templates/FunctionObject.h"
 #include "templates/LambdaExpression.h"
+#include "move/NoExceptExample.h"
+#include "move/MoveOnStrings.h"
+#include "move/PerfectForwarding.h"
+#include "move/TemplateConcepts.h"
+#include "move/PerformanceTimings.h"
+#include "move/ReturnValue.h"
+
 int main() {
-    LambdaExpression::testLambdaExpression();
+    ReturnValueTest::testRetVal();
+    //testPerformance();
+    //testTemplateConcepts();
+    //TestForwarding::testMain();
+    //MoveOnStrings::testMe();
+    //Person::testMain();
+
+    //LambdaExpression::testLambdaExpression();
     //LambdaExpression::testLambda();
     //testLessThanFunctionObject();
     //BasicObjectConstruction::testMe();
