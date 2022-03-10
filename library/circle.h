@@ -4,19 +4,19 @@
 
 #ifndef CPPLANGUAGEFEATURES_CIRCLE_H
 #define CPPLANGUAGEFEATURES_CIRCLE_H
-#include "Coord.h"
+#include "coord.h"
 #include <iostream>
 
-class Circle {
+class circle {
 private:
-    Coord center;
+    coord center;
     int rad;
 public:
-    Circle (Coord c, int r)
+    circle (coord c, int r)
             : center{c}, rad{r} {
     }
 
-    void move(const Coord& c) {
+    void move(const coord& c) {
         center += c;
     }
 

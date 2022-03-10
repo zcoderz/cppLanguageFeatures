@@ -2,8 +2,8 @@
 // Created by usman on 3/7/22.
 //
 
-#ifndef CPPLANGUAGEFEATURES_TEMPLATECONCEPTS_H
-#define CPPLANGUAGEFEATURES_TEMPLATECONCEPTS_H
+#ifndef CPPLANGUAGEFEATURES_TEMPLATE_CONCEPTS_H
+#define CPPLANGUAGEFEATURES_TEMPLATE_CONCEPTS_H
 
 #include <string>
 #include <string_view>
@@ -51,4 +51,4 @@ void testTemplateConcepts()
     requireConstructible(sv);    // OK (explicit conversion used)
     requireConstructible("hi");  // OK
 }
-#endif //CPPLANGUAGEFEATURES_TEMPLATECONCEPTS_H
+#endif //CPPLANGUAGEFEATURES_TEMPLATE_CONCEPTS_H

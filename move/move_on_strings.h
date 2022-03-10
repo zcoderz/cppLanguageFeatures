@@ -2,8 +2,8 @@
 // Created by usman on 3/7/22.
 //
 
-#ifndef CPPLANGUAGEFEATURES_MOVEONSTRINGS_H
-#define CPPLANGUAGEFEATURES_MOVEONSTRINGS_H
+#ifndef CPPLANGUAGEFEATURES_MOVE_ON_STRINGS_H
+#define CPPLANGUAGEFEATURES_MOVE_ON_STRINGS_H
 #include <iostream>
 class MoveOnStrings {
 public :
@@ -36,4 +36,4 @@ public :
         std::cout << "  s5 capa: " << s5.capacity() << " ('" << s5 << "')\n";
     }
 };
-#endif //CPPLANGUAGEFEATURES_MOVEONSTRINGS_H
+#endif //CPPLANGUAGEFEATURES_MOVE_ON_STRINGS_H

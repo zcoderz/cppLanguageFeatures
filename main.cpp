@@ -1,21 +1,27 @@
 //#include "modules/People.h"
 
 #include <iostream>
-#include "variant/SimpleVariant.h"
-#include "variant/PolyVariant.h"
-#include "exceptions/Exception.h"
-#include "construction/BasicObjectConstruction.h"
-#include "templates/FunctionObject.h"
-#include "templates/LambdaExpression.h"
-#include "move/NoExceptExample.h"
-#include "move/MoveOnStrings.h"
-#include "move/PerfectForwarding.h"
-#include "move/TemplateConcepts.h"
-#include "move/PerformanceTimings.h"
-#include "move/ReturnValue.h"
+#include "variant/simple_variant.h"
+#include "variant/poly_variant.h"
+#include "exceptions/exception.h"
+#include "construction/basic_object_construction.h"
+#include "templates/function_object.h"
+#include "templates/lambda_expression.h"
+#include "move/no_except_example.h"
+#include "move/move_on_strings.h"
+#include "move/perfect_forwarding.h"
+#include "move/template_concepts.h"
+#include "move/performance_timings.h"
+#include "move/return_value.h"
+#include "inline/inline.h"
+#include "constexpr/compile_time_if.h"
 
 int main() {
-    ReturnValueTest::testRetVal();
+    CompileTimeIf::testMe();
+
+    //InLineTest inLineTest;
+    //inLineTest.testMe();
+    //ReturnValueTest::testRetVal();
     //testPerformance();
     //testTemplateConcepts();
     //TestForwarding::testMain();

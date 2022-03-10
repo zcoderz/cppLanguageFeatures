@@ -2,8 +2,8 @@
 // Created by usman on 3/4/22.
 //
 
-#ifndef CPPLANGUAGEFEATURES_FUNCTIONOBJECT_H
-#define CPPLANGUAGEFEATURES_FUNCTIONOBJECT_H
+#ifndef CPPLANGUAGEFEATURES_FUNCTION_OBJECT_H
+#define CPPLANGUAGEFEATURES_FUNCTION_OBJECT_H
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -24,4 +24,4 @@ void testLessThanFunctionObject() {
     long val = std::count_if(vals.begin(), vals.end(), LessThan(5));
     std::cout << val << std::endl;
 }
-#endif //CPPLANGUAGEFEATURES_FUNCTIONOBJECT_H
+#endif //CPPLANGUAGEFEATURES_FUNCTION_OBJECT_H

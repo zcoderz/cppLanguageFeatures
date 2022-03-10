@@ -7,31 +7,31 @@
 
 #include <ostream>
 
-class Coord {
+class coord {
 private:
     int x;     // x coordinate
     int y;     // y coordinate
 public:
     // default constructor:
-    Coord() : x{0}, y{0} {
+    coord() : x{0}, y{0} {
     }
     // other constructor:
-    Coord(int newx, int newy) : x{newx}, y{newy} {
+    coord(int newx, int newy) : x{newx}, y{newy} {
     }
 
-    friend Coord operator+ (Coord c1, Coord c2) {  // plus
-        return Coord{c1.x+c2.x, c1.y+c2.y};
+    friend coord operator+ (coord c1, coord c2) {  // plus
+        return coord{c1.x + c2.x, c1.y + c2.y};
     }
-    friend Coord operator- (Coord c1, Coord c2) {  // diff
-        return Coord{c1.x-c2.x, c1.y-c2.y};
+    friend coord operator- (coord c1, coord c2) {  // diff
+        return coord{c1.x - c2.x, c1.y - c2.y};
     }
-    Coord operator- () const {                     // negate
-        return Coord{-x, -y};
+    coord operator- () const {                     // negate
+        return coord{-x, -y};
     }
-    void operator+= (Coord c) {                    // +=
+    void operator+= (coord c) {                    // +=
         *this = *this + c;  // or: x+=c.x, y+=c.y
     }
-    void operator-= (Coord c) {                    // +=
+    void operator-= (coord c) {                    // +=
         operator+=(-c);     // or as above
     }
 
@@ -41,7 +41,7 @@ public:
     int getY() const {
         return y;
     }
-    friend std::ostream& operator<< (std::ostream& strm, Coord c) {
+    friend std::ostream& operator<< (std::ostream& strm, coord c) {
         return strm << '(' << c.x << ',' << c.y << ')';
     }
 };

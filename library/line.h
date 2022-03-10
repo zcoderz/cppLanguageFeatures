@@ -5,19 +5,19 @@
 #ifndef CPPLANGUAGEFEATURES_LINE_H
 #define CPPLANGUAGEFEATURES_LINE_H
 
-#include "Coord.h"
+#include "coord.h"
 #include <iostream>
 
-class Line {
+class line {
 private:
-    Coord from;
-    Coord to;
+    coord from;
+    coord to;
 public:
-    Line (Coord f, Coord t)
+    line (coord f, coord t)
             : from{f}, to{t} {
     }
 
-    void move(const Coord& c) {
+    void move(const coord& c) {
         from += c;
         to += c;
     }

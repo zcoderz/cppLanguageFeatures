@@ -2,8 +2,8 @@
 // Created by usman on 3/7/22.
 //
 
-#ifndef CPPLANGUAGEFEATURES_PERFORMANCETIMINGS_H
-#define CPPLANGUAGEFEATURES_PERFORMANCETIMINGS_H
+#ifndef CPPLANGUAGEFEATURES_PERFORMANCE_TIMINGS_H
+#define CPPLANGUAGEFEATURES_PERFORMANCE_TIMINGS_H
 #include <iostream>
 #include <cstdlib>   // for std::atoi()
 #include <chrono>
@@ -75,4 +75,4 @@ void testPerformance()
 }
 
 
-#endif //CPPLANGUAGEFEATURES_PERFORMANCETIMINGS_H
+#endif //CPPLANGUAGEFEATURES_PERFORMANCE_TIMINGS_H

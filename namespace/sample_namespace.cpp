@@ -2,7 +2,7 @@
 // Created by usman on 3/3/22.
 //
 
-#include "SampleNameSpace.h"
+#include "sample_namespace.h"
 
 #include <iostream>
 

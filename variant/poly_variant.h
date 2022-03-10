@@ -2,25 +2,25 @@
 // Created by usman on 3/3/22.
 //
 
-#ifndef CPPLANGUAGEFEATURES_POLYVARIANT_H
-#define CPPLANGUAGEFEATURES_POLYVARIANT_H
+#ifndef CPPLANGUAGEFEATURES_POLY_VARIANT_H
+#define CPPLANGUAGEFEATURES_POLY_VARIANT_H
 
-#include "../library/Line.h"
-#include "../library/Circle.h"
-#include "../library/Rectangle.h"
+#include "../library/line.h"
+#include "../library/circle.h"
+#include "../library/rectangle.h"
 #include <variant>
 #include <vector>
 class PolyVariant {
 
-    using GeoObj = std::variant<Line, Circle, Rectangle>;
+    using GeoObj = std::variant<line, circle, Rectangle>;
 
 // create and initialize a collection of geometric objects:
     std::vector<GeoObj> createFigure()
     {
         std::vector<GeoObj> f;
-        f.push_back(Line{Coord{1,2},Coord{3,4}});
-        f.push_back(Circle{Coord{5,5},2});
-        f.push_back(Rectangle{Coord{3,3},Coord{6,4}});
+        f.push_back(line{coord{1, 2}, coord{3, 4}});
+        f.push_back(circle{coord{5, 5}, 2});
+        f.push_back(Rectangle{coord{3, 3}, coord{6, 4}});
         return f;
     }
 public:
@@ -36,4 +36,4 @@ public:
     }
 };
 
-#endif //CPPLANGUAGEFEATURES_POLYVARIANT_H
+#endif //CPPLANGUAGEFEATURES_POLY_VARIANT_H

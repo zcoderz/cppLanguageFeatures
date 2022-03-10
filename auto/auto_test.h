@@ -2,13 +2,13 @@
 // Created by usman on 3/3/22.
 //
 
-#ifndef CPPLANGUAGEFEATURES_AUTOTEST_H
-#define CPPLANGUAGEFEATURES_AUTOTEST_H
+#ifndef CPPLANGUAGEFEATURES_AUTO_TEST_H
+#define CPPLANGUAGEFEATURES_AUTO_TEST_H
 
 
 #include <iostream>
 
-class AutoTest {
+class auto_test {
 private:
     struct TempObj {
         int i;
@@ -31,4 +31,4 @@ public:
 
 };
 
-#endif //CPPLANGUAGEFEATURES_AUTOTEST_H
+#endif //CPPLANGUAGEFEATURES_AUTO_TEST_H

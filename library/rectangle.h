@@ -5,19 +5,19 @@
 #ifndef CPPLANGUAGEFEATURES_RECTANGLE_H
 #define CPPLANGUAGEFEATURES_RECTANGLE_H
 
-#include "Coord.h"
+#include "coord.h"
 #include <iostream>
 
 class Rectangle {
 private:
-    Coord from;
-    Coord to;
+    coord from;
+    coord to;
 public:
-    Rectangle (Coord f, Coord t)
+    Rectangle (coord f, coord t)
             : from{f}, to{t} {
     }
 
-    void move(const Coord& c) {
+    void move(const coord& c) {
         from += c;
         to += c;
     }
