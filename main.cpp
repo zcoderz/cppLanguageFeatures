@@ -15,10 +15,17 @@
 #include "move/return_value.h"
 #include "inline/inline.h"
 #include "constexpr/compile_time_if.h"
+#include "optional/optional.h"
+#include "optional/OptionalMember.h"
+#include "lang_features/std_any_example.h"
+#include "byte_and_bitset/byte_example.h"
 
 int main() {
-    CompileTimeIf::testMe();
-
+    Byte::testMe();
+    //StdAny::testMe();
+    //OptionalMember::testMe();
+    //Optional::testMe();
+    //CompileTimeIf::testMe();
     //InLineTest inLineTest;
     //inLineTest.testMe();
     //ReturnValueTest::testRetVal();
