@@ -19,9 +19,11 @@
 #include "optional/OptionalMember.h"
 #include "lang_features/std_any_example.h"
 #include "byte_and_bitset/byte_example.h"
+#include "byte_and_bitset/bitset_example.h"
 
 int main() {
-    Byte::testMe();
+    BitsetExample::testMe();
+    //Byte::testMe();
     //StdAny::testMe();
     //OptionalMember::testMe();
     //Optional::testMe();
