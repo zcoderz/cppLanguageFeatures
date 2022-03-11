@@ -20,9 +20,25 @@
 #include "lang_features/std_any_example.h"
 #include "byte_and_bitset/byte_example.h"
 #include "byte_and_bitset/bitset_example.h"
+#include "stl/search_one.h"
+#include "stl/search_two.h"
+#include "polymorphic_memory/pmr_one.h"
+#include "polymorphic_memory/pmr_two.h"
+#include "polymorphic_memory/pmr_three.h"
+#include "polymorphic_memory/pmr_customer.h"
+#include "polymorphic_memory/pmr_null.h"
+#include "polymorphic_memory/stable_memory_pool.h"
 
 int main() {
-    BitsetExample::testMe();
+    StableMemoryPool::testMe();
+    //PMRNull::testMe();
+    //PmrCustomer::testMe();
+    //PMRThree::testMe();
+    //PMRTwo::testMe();
+    //PMROne::testMe();
+    //SearchOne::testMe();
+    //SearchTwo::testMe();
+    //BitsetExample::testMe();
     //Byte::testMe();
     //StdAny::testMe();
     //OptionalMember::testMe();
