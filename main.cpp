@@ -6,7 +6,7 @@
 #include "exceptions/exception.h"
 #include "construction/basic_object_construction.h"
 #include "templates/function_object.h"
-#include "templates/lambda_expression.h"
+#include "lambda/lambda_expression.h"
 #include "move/no_except_example.h"
 #include "move/move_on_strings.h"
 #include "move/perfect_forwarding.h"
@@ -28,9 +28,25 @@
 #include "polymorphic_memory/pmr_customer.h"
 #include "polymorphic_memory/pmr_null.h"
 #include "polymorphic_memory/stable_memory_pool.h"
+#include "polymorphic_memory/cache_line.h"
+#include "pointers/unique_ptr.h"
+#include "pointers/weak_ptr.h"
+#include "pointers/shared_ptr.h"
+#include "stl/transform_example.h"
+#include "stl/sort_example.h"
+#include "stl/remove.h"
+#include "lambda/lamda_example.h"
 
 int main() {
-    StableMemoryPool::testMe();
+    LambdaExampleOne::main();
+    //Remove::testMe();
+    //Sort::main();
+    //Transform::main();
+    //SharedPtr::SharedPtr::testMe();
+    //WeakPtr::WeakPtr::testMe();
+    //UniquePtr::UniquePtr::testMe();
+    //TestCacheLines::testMe();
+    //StableMemoryPool::testMe();
     //PMRNull::testMe();
     //PmrCustomer::testMe();
     //PMRThree::testMe();
