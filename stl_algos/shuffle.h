@@ -10,7 +10,7 @@
  */
 #include <cstdlib>
 #include <random>
-#include "../utils/helper.h"
+#include "../library/helper.h"
 
 namespace ShuffleExample {
     using namespace std;
