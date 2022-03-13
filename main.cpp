@@ -39,9 +39,17 @@
 #include "stl/algos/accumulate1.h"
 #include "stl/algos/binarysearch.h"
 #include "stl/algos/bounds1.h"
+#include "stl/algos/lexicocmp.h"
+#include "stl/algos/merge.h"
+#include "stl/algos/nthelement.h"
+#include "stl/algos/partialsum.h"
 
 int main() {
-    BoundsExample::main();
+    PartialSum::main();
+    //NthElement::main();
+    //Merge::main();
+    //LexicographicCompare::main();
+    //BoundsExample::main();
     //BinarySearchExample::main();
     //AccumulateExample::main();
     //LambdaExampleOne::main();
