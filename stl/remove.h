@@ -15,7 +15,7 @@ namespace Remove {
     using namespace std;
 
     void eraseRemove() {
-        cout << "Erase remove -3" << endl;
+        cout << "Erase remove - all greater than 3" << endl;
         list<int> coll;
 
         // insert elements from 6 to 1 and 1 to 6
@@ -30,8 +30,10 @@ namespace Remove {
         cout << endl;
 
         // remove all elements with value 3 (poor performance)
-        coll.erase(remove(coll.begin(), coll.end(),
-                          3),
+        coll.erase(remove_if(coll.begin(), coll.end(),
+                             [=](int i) {                 // search criterion
+                                 return i > 3;
+                             }),
                    coll.end());
 
         // remove all elements with value 4 (good performance)

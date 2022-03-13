@@ -36,9 +36,15 @@
 #include "stl/sort_example.h"
 #include "stl/remove.h"
 #include "lambda/lamda_example.h"
+#include "stl/algos/accumulate1.h"
+#include "stl/algos/binarysearch.h"
+#include "stl/algos/bounds1.h"
 
 int main() {
-    LambdaExampleOne::main();
+    BoundsExample::main();
+    //BinarySearchExample::main();
+    //AccumulateExample::main();
+    //LambdaExampleOne::main();
     //Remove::testMe();
     //Sort::main();
     //Transform::main();
