@@ -20,8 +20,8 @@
 #include "lang_features/std_any_example.h"
 #include "byte_and_bitset/byte_example.h"
 #include "byte_and_bitset/bitset_example.h"
-#include "stl/algos/search_one.h"
-#include "stl/algos/search_two.h"
+#include "stl_algos/search_one.h"
+#include "stl_algos/search_two.h"
 #include "polymorphic_memory/pmr_one.h"
 #include "polymorphic_memory/pmr_two.h"
 #include "polymorphic_memory/pmr_three.h"
@@ -32,21 +32,27 @@
 #include "pointers/unique_ptr.h"
 #include "pointers/weak_ptr.h"
 #include "pointers/shared_ptr.h"
-#include "stl/algos/transform_example.h"
-#include "stl/algos/sort_example.h"
-#include "stl/algos/remove.h"
+#include "stl_algos/transform_example.h"
+#include "stl_algos/sort_example.h"
+#include "stl_algos/remove.h"
 #include "lambda/lamda_example.h"
-#include "stl/algos/accumulate1.h"
-#include "stl/algos/binarysearch.h"
-#include "stl/algos/bounds1.h"
-#include "stl/algos/lexicocmp.h"
-#include "stl/algos/merge.h"
-#include "stl/algos/nthelement.h"
-#include "stl/algos/partialsum.h"
-#include "stl/algos/rotate.h"
+#include "stl_algos/accumulate1.h"
+#include "stl_algos/binarysearch.h"
+#include "stl_algos/bounds1.h"
+#include "stl_algos/lexicocmp.h"
+#include "stl_algos/merge.h"
+#include "stl_algos/nthelement.h"
+#include "stl_algos/partialsum.h"
+#include "stl_algos/rotate.h"
+#include "containers/multiset.h"
+#include "lang_features/using_example.h"
+#include "containers/set_range.h"
 
 int main() {
-    RotateExample::main();
+    SetRangeExample::main();
+    //UsingExample::testMe();
+    //MultiSetExample::main();
+    //RotateExample::main();
     //PartialSum::main();
     //NthElement::main();
     //Merge::main();
