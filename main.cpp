@@ -47,9 +47,11 @@
 #include "containers/multiset.h"
 #include "lang_features/using_example.h"
 #include "containers/set_range.h"
+#include "file_system/stream_redirect_example.h"
 
 int main() {
-    SetRangeExample::main();
+    StreamRedirectExample::main();
+    //SetRangeExample::main();
     //UsingExample::testMe();
     //MultiSetExample::main();
     //RotateExample::main();

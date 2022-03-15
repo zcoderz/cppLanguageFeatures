@@ -10,6 +10,10 @@
 #include <iostream>
 #include <cassert>
 
+
+//* If you specify noexcept in the move constructor , the realloc in a container will use the move constructor
+//* instead of the copy constructor
+
 class Person {
 private:
     std::string name;

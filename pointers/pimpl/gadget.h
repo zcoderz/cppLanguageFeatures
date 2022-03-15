@@ -1,0 +1,8 @@
+//
+// Created by usman on 3/15/22.
+//
+
+#ifndef CPPLANGUAGEFEATURES_GADGET_H
+#define CPPLANGUAGEFEATURES_GADGET_H
+class Gadget {};
+#endif //CPPLANGUAGEFEATURES_GADGET_H
