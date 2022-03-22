@@ -13,7 +13,7 @@
 namespace BoundsExample {
     using namespace std;
 
-    int main() {
+    void main() {
         list<int> coll;
 
         INSERT_ELEMENTS(coll, 1, 9);

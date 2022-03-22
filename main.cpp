@@ -48,9 +48,15 @@
 #include "lang_features/using_example.h"
 #include "containers/set_range.h"
 #include "file_system/stream_redirect_example.h"
+#include "views_and_ranges/views_pipe.h"
+#include "views_and_ranges/sentinel1.h"
+#include "views_and_ranges/sentinel3.h"
 
 int main() {
-    StreamRedirectExample::main();
+    SentinelThree::main();
+    //SentinelOne::main();
+    //ViewsPipe::main();
+    //StreamRedirectExample::main();
     //SetRangeExample::main();
     //UsingExample::testMe();
     //MultiSetExample::main();

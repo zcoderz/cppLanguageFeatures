@@ -16,7 +16,7 @@
 namespace MultiSetExample {
     using namespace std;
 
-    int main() {
+    void main() {
         // type of the collection:
         // - duplicates allowed
         // - elements are integral values
